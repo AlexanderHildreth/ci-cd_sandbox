@@ -12,6 +12,9 @@ services:
     volumes:
       - /app/node_modules
       - .:/app
+    depends_on: 
+      - tests
+  
   tests:
     build: 
       context: .
