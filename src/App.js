@@ -10,7 +10,7 @@ function App() {
           Welcome!
         </p>
         <p>
-          This is a simple react app created using <span style={{fontWeight: 'bold'}}>`create-react-app` </span>
+          This is a simple react app created using <code style={{fontWeight: 'bold'}}>`create-react-app` </code>
           in the command line. 
           <br>
           </br>
