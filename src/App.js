@@ -15,6 +15,8 @@ function App() {
           <br>
           </br>
           This app is just a sandbox app to test and play around with the deployment workflow.
+          <br>
+          </br>
           The following technologies are used
         </p>
           <ul style={{textAlign: 'left'}}>
