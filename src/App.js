@@ -10,11 +10,11 @@ function App() {
           Welcome!
         </p>
         <p>
-          This is a simple react app created using <code>create-react-app</code>
+          This is a simple react app created using <span style={{fontWeight: 'bold'}}>`create-react-app` </span>
           in the command line. 
           <br>
           </br>
-          This app is just a sandbox app to test and play around with deployment workflow.
+          This app is just a sandbox app to test and play around with the deployment workflow.
           The following technologies are used
         </p>
           <ul style={{textAlign: 'left'}}>

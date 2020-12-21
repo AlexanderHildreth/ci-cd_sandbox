@@ -1,6 +1,7 @@
 version: "3"
 services:
   web:
+    stdin_open: true
     environment:
       # This is needed for Windows users
       - CHOKIDAR_USEPOLLING=true
@@ -16,6 +17,7 @@ services:
       - tests
   
   tests:
+    stdin_open: true
     build: 
       context: .
       dockerfile: Dockerfile.dev
