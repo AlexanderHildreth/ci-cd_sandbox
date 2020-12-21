@@ -9,3 +9,13 @@ before_install:
 
 script:
   - docker run -e CI=true ahildreth/ci-cd_sandbox npm run test
+
+deploy:
+  provider: elasticbeanstalk
+  region: "eu-west-1"
+  app: "ci-cd_sandbox"
+  env: "CiCdSandbox-env"
+  bucket_name: "elasticbeanstalk-eu-west-1-477122900110" 
+  bucket_path: "ci-cd_sandbox"
+  on:
+    branch: master
